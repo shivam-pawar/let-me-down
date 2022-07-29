@@ -1,0 +1,22 @@
+{
+  "name": "let-me-down",
+  "version": "1.0.0",
+  "description": "A react component to keep footer always at bottom of screen and content on page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam-pawar/let-me-down.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "shivam pawar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivam-pawar/let-me-down/issues"
+  },
+  "homepage": "https://github.com/shivam-pawar/let-me-down#readme"
+}
