@@ -1,14 +1,19 @@
 {
   "name": "let-me-down",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A react component to keep footer always at bottom of screen and content on page.",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shivam-pawar/let-me-down.git"
+    "url": "https://github.com/shivam-pawar/let-me-down.git"
   },
   "keywords": [
     "react"
@@ -18,5 +23,21 @@
   "bugs": {
     "url": "https://github.com/shivam-pawar/let-me-down/issues"
   },
-  "homepage": "https://github.com/shivam-pawar/let-me-down#readme"
+  "homepage": "https://github.com/shivam-pawar/let-me-down#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/react": "^18.0.15",
+    "react": "^18.2.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
 }
