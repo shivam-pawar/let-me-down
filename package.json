@@ -16,7 +16,10 @@
     "url": "https://github.com/shivam-pawar/let-me-down.git"
   },
   "keywords": [
-    "react"
+    "react",
+    "footer",
+    "always at botton",
+    "typescript"
   ],
   "author": "shivam pawar",
   "license": "MIT",
