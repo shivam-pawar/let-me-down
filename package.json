@@ -1,6 +1,6 @@
 {
   "name": "let-me-down",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A react component to keep footer always at bottom of screen and content on page.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

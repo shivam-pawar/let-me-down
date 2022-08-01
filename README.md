@@ -16,6 +16,10 @@
 
 [Shivam Pawar](https://github.com/shivam-pawar) Active maintainer - accepting PRs and doing minor testing, fixing issues or doing active development.
 
+## Demo
+
+[![Edit ReactTooltip](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/interesting-glitter-pgn0d0?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Installation
 
 ```sh
@@ -65,3 +69,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 <a href="https://www.buymeacoffee.com/shivampawar" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/Coffee.png" alt="Buy me a Coffee"/></a>
+
+## License
+
+MIT
