@@ -32,19 +32,20 @@ npm install let-me-down
 "react": ">=16.8"
 "react-dom": ">=16.8"
 ```
+
 ## Usage
 
 1 . Import let-me-down after installation
 
 ```js
-import LetMeDown from 'let-me-down';
+import { LetMeDown } from "let-me-down";
 ```
 
 2 . Add property footerComponent= {<Your_Footer_Component />} to LetMeDown component.
 
 ```jsx
 <LetMeDown footerComponent={<Footer />}>
-    <Content />
+  <Content />
 </LetMeDown>
 ```
 
